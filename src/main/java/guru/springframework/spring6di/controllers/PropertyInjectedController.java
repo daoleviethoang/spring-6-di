@@ -14,6 +14,6 @@ public class PropertyInjectedController {
     GreetingService greetingService;
 
     public void sayHello() {
-        greetingService.sayHello();
+        System.out.println(greetingService.sayHello());
     }
 }

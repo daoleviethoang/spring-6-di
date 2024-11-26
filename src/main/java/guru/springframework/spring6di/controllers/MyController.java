@@ -15,6 +15,6 @@ public class MyController {
 
 
     public void sayHello() {
-        greetingService.sayHello();
+        System.out.println(greetingService.sayHello());
     }
 }

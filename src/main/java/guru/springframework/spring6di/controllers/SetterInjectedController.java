@@ -17,6 +17,6 @@ public class SetterInjectedController {
     }
 
     void sayHello() {
-        greetingService.sayHello();
+        System.out.println(greetingService.sayHello());
     }
 }
